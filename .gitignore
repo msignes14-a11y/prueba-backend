@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Chroma / BDs locales y binarios pesados
+chroma_db/
+chroma_data/
+*.sqlite
+*.sqlite3
+*.parquet
+*.bin
+*.pkl
+
+# Datos locales de prueba
+data/*.txt
+
+# macOS
+.DS_Store
